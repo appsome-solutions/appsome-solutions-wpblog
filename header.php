@@ -13,11 +13,7 @@
 
 <?php
 wp_enqueue_style( 'style', get_stylesheet_uri() );
-
-function echoImage($imageName) {
-    echo "/wp-content/themes/appsome-solutions/assets/images/$imageName";
-}
-
+wp_enqueue_style( 'style', get_template_directory_uri() . '/reset.css' );
 ?>
 
 <html class="no-js">
@@ -35,5 +31,6 @@ function echoImage($imageName) {
 
     <img id="shape-top" src="<?php echoImage('ShapeTop.svg') ?>" alt="Red Shape Top" />
     <img id="shape-bottom" src="<?php echoImage('ShapeBottom.svg') ?>" alt="Red Shape Bottom" />
+
     
 

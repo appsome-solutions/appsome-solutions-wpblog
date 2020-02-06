@@ -12,9 +12,14 @@ Tags: -
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+:root {
+    --colors-main-tetiary: #EDD2CB;
+    --colors-main-secondary: #F55951;
+}
 
 body {
     background-color: #543C52;
+    font-family: Roboto, sans-serif;
 }
 
 #shape-bottom {
@@ -28,3 +33,51 @@ body {
     top:0;
     left: 0;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+h6 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.0015em;
+}
+
+.subtitle1 {    
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.0015em;
+}
+
+#logo-wrapper {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+#logo-wrapper h6 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.0015em;
+    color: var(--colors-main-tetiary);
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+#logo-wrapper div {
+    color: var(--colors-main-secondary);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#centered-logo-text {
+    margin-left: 24px;
+}
+
