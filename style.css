@@ -15,11 +15,13 @@ Use it to make something cool, have fun, and share what you've learned with othe
 :root {
     --colors-main-tetiary: #EDD2CB;
     --colors-main-secondary: #F55951;
+    --colors-utils-background-mid: #F1E8E6;
 }
 
 body {
     background-color: #543C52;
     font-family: Roboto, sans-serif;
+    color: var(--colors-utils-background-mid);
 }
 
 #shape-bottom {
@@ -35,9 +37,10 @@ body {
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
+    /* display: flex;
+    justify-content: center; */
+    margin: 60px auto 0;
+    max-width: 680px;
 }
 
 h6 {
@@ -53,17 +56,27 @@ h6 {
     letter-spacing: 0.0015em;
 }
 
+.caption {
+    font-size: 12px;
+    line-height: 14px;
+
+    letter-spacing: 0.004em;
+}
+
 #logo-wrapper {
     display: flex;
     margin-top: 60px;
     margin-bottom: 70px;
 }
 
-#logo-wrapper h6 {
+h6 {
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
     letter-spacing: 0.0015em;
+}
+
+#logo-wrapper h6 {
     color: var(--colors-main-tetiary);
     margin-top: 0;
     margin-bottom: 5px;
@@ -81,3 +94,19 @@ h6 {
     margin-left: 24px;
 }
 
+#posts-list h6 {
+    color: var(--colors-main-secondary);
+    margin-bottom: 8px;
+}
+footer {
+    margin-top: 60px;
+}
+footer a,
+footer a:visited {
+    font-weight: 500;
+    color: var(--colors-main-secondary);
+    margin-right: 28px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.0125em;
+}
