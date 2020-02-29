@@ -110,3 +110,12 @@ footer a:visited {
     line-height: 16px;
     letter-spacing: 0.0125em;
 }
+
+#posts-list a {
+    text-decoration: none;
+    color: var(--colors-main-secondary);
+}
+
+#posts-list a:hover {
+    text-decoration: underline;
+}

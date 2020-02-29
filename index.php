@@ -28,8 +28,10 @@ get_header();
             )); 
 
             foreach ($posts as $post) {
-                echo "<h6>" . $post->post_title . "</h6>";
+                echo  "<a href='" . get_permalink($post) . "'> <h6>" . $post->post_title . " </h6> </a>";
+                // Reading Time WP plugin to support below time:
                 echo "<div class='caption'>" . $post->post_date . " ☕ " . do_shortcode('[rt_reading_time postfix="min read" postfix_singular="min read"]') ."</div>";
+                // We need to add excerpt to a post to see preview of it
                 echo "<p>" . $post->post_excerpt . "</p>";
             }
 
