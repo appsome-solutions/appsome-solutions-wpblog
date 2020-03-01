@@ -70,6 +70,10 @@ h6 {
     margin-bottom: 70px;
 }
 
+#logo-wrapper:active {
+    text-decoration: none;
+}
+
 h6 {
     font-weight: 500;
     font-size: 20px;
@@ -124,6 +128,11 @@ footer a:visited {
 #post-header {
     margin-top: 60px;
     margin-bottom: 54px;
+    color: var(--colors-main-secondary);
+}
+
+#post-header a {
+    text-decoration: none;
     color: var(--colors-main-secondary);
 }
 

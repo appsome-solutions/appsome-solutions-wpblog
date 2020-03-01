@@ -14,9 +14,9 @@ get_header();
 ?>
 
 <main id="post-content" role="main">
-
-    <h6 id="post-header">Appsome Solutions Blog</h6>
-
+    <h6 id="post-header">
+        <a  href="<?php echo get_home_url() ?>"> Appsome Solutions Blog</a>
+    </h6>
 <?php
 
 if ( have_posts() ) {
@@ -62,13 +62,13 @@ if ( have_posts() ) {
 <!--End mc_embed_signup-->
 
 
-<div id="logo-wrapper">
+<a id="logo-wrapper" href="<?php echo get_home_url() ?>">
     <img id="appsome-logo" src="<?php echoImage('AppsomeLogo.svg') ?>" alt="Red Shape Top" />
     <div id="centered-logo-text">
         <h6>Appsome-Solutions Blog</h6>
         <div class="subtitle1" >We describe product delivery process directly from the kitchen</div>
     </div>
-</div>
+</a>
 
 <div id="previous-next-links">
 <?php 
