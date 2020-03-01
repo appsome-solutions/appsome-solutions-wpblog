@@ -61,6 +61,22 @@ if ( have_posts() ) {
 
 <!--End mc_embed_signup-->
 
+
+<div id="logo-wrapper">
+    <img id="appsome-logo" src="<?php echoImage('AppsomeLogo.svg') ?>" alt="Red Shape Top" />
+    <div id="centered-logo-text">
+        <h6>Appsome-Solutions Blog</h6>
+        <div class="subtitle1" >We describe product delivery process directly from the kitchen</div>
+    </div>
+</div>
+
+<div id="previous-next-links">
+<?php 
+    echo previous_post_link('%link', '<- %title');
+    echo next_post_link('%link', '%title ->');
+?>
+</div>
+
 </main><!-- #site-content -->
 
 

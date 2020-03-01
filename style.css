@@ -173,4 +173,14 @@ footer a:visited {
 #mc_embed_signup #subscribe-email-wrapper input[type=submit] {
     background-color: var(--colors-main-tetiary);
     color: var(--colors-utils-text-dark);
+    padding-top: 2px;
+}
+
+#previous-next-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+#previous-next-links a {
+    color: var(--colors-main-secondary);
 }
