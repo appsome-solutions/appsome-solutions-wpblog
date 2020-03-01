@@ -16,6 +16,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
     --colors-main-tetiary: #EDD2CB;
     --colors-main-secondary: #F55951;
     --colors-utils-background-mid: #F1E8E6;
+    --colors-utils-text-dark: #361D32;
 }
 
 body {
@@ -124,4 +125,52 @@ footer a:visited {
     margin-top: 60px;
     margin-bottom: 54px;
     color: var(--colors-main-secondary);
+}
+
+#mc_embed_signup {
+    border: 1px solid rgba(241,232,230, 0.2);
+    background-color: rgba(241,232,230, 0.1);
+    padding: 20px;
+    margin-top: 48px;
+}
+
+#mc_embed_signup #subscribe-wrapper{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+#mc_embed_signup h6 {
+    margin: 0;
+    margin-bottom: 14px;
+}
+
+#mc_embed_signup #subscribe-email-wrapper {
+    display: flex;
+    margin-left: auto;
+}
+
+#mc_embed_signup #mce-EMAIL {
+    min-width: 200px;
+    width: auto;
+}
+
+#mc_embed_signup #subscribe-email-wrapper input {
+    height: 36px;
+    border-radius: 0px;
+}
+
+#mc_embed_signup #subscribe-email-wrapper input[type=email] {
+    border: 1px solid var(--colors-utils-background-mid);
+    background: transparent;
+    color: var(--colors-utils-background-mid);
+}
+
+#mc_embed_signup #subscribe-email-wrapper input[type=email]::placeholder {
+    color: rgb(241,232,230, 0.5);
+}
+
+#mc_embed_signup #subscribe-email-wrapper input[type=submit] {
+    background-color: var(--colors-main-tetiary);
+    color: var(--colors-utils-text-dark);
 }
