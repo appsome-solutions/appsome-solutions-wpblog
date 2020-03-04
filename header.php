@@ -2,11 +2,11 @@
 /**
  * Header file for the Twenty Twenty WordPress default theme.
  *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ * @link https://appsome-solutions.com
  *
- * @package WordPress
- * @subpackage Twenty_Twenty
- * @since 1.0.0
+ * @package Appsome-Solutions
+ * @subpackage Blog
+ * @since 1.0.2
  */
 
 ?><!DOCTYPE html>
