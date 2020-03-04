@@ -1,0 +1,37 @@
+@media only screen and (max-width: 1060px) {
+    main {
+        margin-top: 80px;
+        padding: 20px;
+        margin-bottom: 120px;
+    }
+
+    #mc_embed_signup {
+        width: auto;
+        display: inline-flex;
+    }
+
+    #mc_embed_signup #subscribe-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #mc_embed_signup #subscribe-email-wrapper {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    #centered-logo-text h6 {
+        font-size: 16px;
+    }
+
+    #centered-logo-text .subtitle1 {
+        font-size: 14px;
+    }
+
+    #mc_embed_signup #subscribe-email-wrapper {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
