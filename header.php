@@ -30,7 +30,5 @@ wp_enqueue_style( 'style', get_template_directory_uri() . '/reset.css' );
 	<body>
 
     <img id="shape-top" src="<?php echoImage('ShapeTop.svg') ?>" alt="Red Shape Top" />
-    <img id="shape-bottom" src="<?php echoImage('ShapeBottom.svg') ?>" alt="Red Shape Bottom" />
-
     
 

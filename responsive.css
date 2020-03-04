@@ -1,8 +1,8 @@
+/* Tablet */
 @media only screen and (max-width: 1060px) {
     main {
         margin-top: 80px;
         padding: 20px;
-        margin-bottom: 120px;
     }
 
     #mc_embed_signup {
@@ -20,6 +20,7 @@
     }
 }
 
+/* Mobile */
 @media only screen and (max-width: 440px) {
     #centered-logo-text h6 {
         font-size: 16px;
@@ -32,6 +33,36 @@
     #mc_embed_signup #subscribe-email-wrapper {
         flex-direction: column;
         width: 100%;
+    }
+
+    #shape-top {
+        display: none;
+    }
+
+    #logo-wrapper {
+        margin-top: 10px;
+    }
+
+    #post-content #logo-wrapper {
+        margin-top: 60px;
+    }
+
+    main {
+        margin-top: 0;
+    }
+    
+    #shape-bottom {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    #post-content #post-header {
+        margin-top: 20px;
     }
 }
 
