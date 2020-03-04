@@ -6,7 +6,7 @@
  *
  * @package Appsome-Solutions
  * @subpackage Blog
- * @since 1.0.1
+ * @since 1.0.4
  */
 
 get_header();
