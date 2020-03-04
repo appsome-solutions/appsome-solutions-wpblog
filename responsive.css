@@ -59,6 +59,7 @@
 
     body {
         padding: 0;
+        min-height: calc(100vh);
     }
 
     #post-content #post-header {
