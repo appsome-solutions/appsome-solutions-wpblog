@@ -15,6 +15,9 @@ body {
     padding: 60px 0 0;
 
     min-height: calc(100vh - 60px);
+
+    letter-spacing: -0.004em;
+    line-height: 1.58;
 }
 
 #shape-bottom {
@@ -189,3 +192,36 @@ footer a:visited {
 #previous-next-links a {
     color: var(--colors-main-secondary);
 }
+
+figure {
+    margin: 0;
+    max-width: 100%; 
+}
+
+figure img {
+    max-width: 100%;
+}
+
+.has-medium-font-size {
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-weight: bold;
+}
+
+.rt-reading-time {
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+blockquote {
+    border-left: 4px solid var(--colors-main-secondary);
+    margin-left: 0px;
+    padding-left: 30px;
+    font-style: italic;
+}
+
+a {
+    color: var(--colors-main-secondary);
+}
+
