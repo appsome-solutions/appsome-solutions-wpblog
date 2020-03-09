@@ -262,3 +262,8 @@ a {
     display: flex;
     justify-content: center;
 }
+
+#post-thumbnail-wrapper img {
+    object-fit: contain;
+    height: auto;
+}
