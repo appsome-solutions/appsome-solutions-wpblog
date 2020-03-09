@@ -216,7 +216,6 @@ figure img {
 }
 
 .rt-reading-time {
-    margin-top: -20px;
     margin-bottom: 20px;
 }
 
@@ -231,3 +230,21 @@ a {
     color: var(--colors-main-secondary);
 }
 
+.tag {
+    background-color: var(--colors-main-secondary);
+    padding: 8px 14px;
+    margin-right: 16px;
+    border-radius: 4px;
+    font-size: 0.8em;
+}
+
+#post-content #post-title {
+    margin-bottom: 10px;
+}
+
+#post-content .rt-reading-time {
+    margin-top: 12px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.004em;
+}

@@ -20,13 +20,27 @@ get_header();
     </h6>
 <?php
 
+
 if ( have_posts() ) {
     while ( have_posts() ) {
  
         the_post(); ?>
  
-        <h2><?php the_title(); ?></h2>
+        <h2 id="post-title"><?php the_title(); ?></h2>
  
+        <?php
+
+            $tags = get_tags();
+            $html = '<div class="post_tags">';
+            foreach ( $tags as $tag ) {
+                        
+                $html .= "<span class='tag'>" . "{$tag->name}</span>";
+            }
+            $html .= '</div>';
+            echo $html;
+
+        ?>
+
         <?php the_content(); ?>
  
     <?php }
