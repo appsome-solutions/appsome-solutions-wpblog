@@ -126,8 +126,6 @@ footer a:visited {
 #post-header {
     margin-top: 60px;
     margin-bottom: 54px;
-    display: flex;
-    align-items: center;
     color: var(--colors-main-secondary);
 }
 
@@ -138,6 +136,9 @@ footer a:visited {
 #post-header a {
     text-decoration: none;
     color: var(--colors-main-secondary);
+    
+    display: flex;
+    align-items: center;
 }
 
 #mc_embed_signup {
@@ -236,6 +237,8 @@ a {
     margin-right: 16px;
     border-radius: 4px;
     font-size: 0.8em;
+    display: inline-block;
+    margin-bottom: 12px;
 }
 
 #post-content #post-title {
@@ -247,4 +250,10 @@ a {
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.004em;
+}
+
+
+.wp-block-gallery .blocks-gallery-grid{
+    list-style: none;
+    padding-left: 0px;
 }

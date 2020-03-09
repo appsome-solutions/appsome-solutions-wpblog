@@ -18,6 +18,15 @@
     #mc_embed_signup #subscribe-email-wrapper {
         margin-top: 20px;
     }
+
+    #previous-next-links {
+        margin-right: 120px;
+        flex-direction: column;
+    }
+
+    #previous-next-links a:nth-child(2) {
+        margin-top: 12px;
+    }
 }
 
 /* Mobile */
@@ -65,5 +74,6 @@
     #post-content #post-header {
         margin-top: 20px;
     }
+
 }
 
