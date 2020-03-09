@@ -28,6 +28,10 @@ if ( have_posts() ) {
  
         the_post(); ?>
  
+        <div id="post-thumbnail-wrapper">
+            <?php echo get_the_post_thumbnail() ?> 
+        </div>
+
         <h2 id="post-title"><?php the_title(); ?></h2>
  
         <?php
