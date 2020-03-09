@@ -15,6 +15,7 @@ get_header();
 
 <main id="post-content" role="main">
     <h6 id="post-header">
+        <img id="appsome-logo" width="40px" src="<?php echoImage('AppsomeLogo.svg') ?>" alt="Red Shape Top" />
         <a  href="<?php echo get_home_url() ?>"> Appsome Solutions Blog</a>
     </h6>
 <?php

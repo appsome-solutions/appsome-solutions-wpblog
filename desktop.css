@@ -126,7 +126,13 @@ footer a:visited {
 #post-header {
     margin-top: 60px;
     margin-bottom: 54px;
+    display: flex;
+    align-items: center;
     color: var(--colors-main-secondary);
+}
+
+#post-header img {
+    margin-right: 12px;
 }
 
 #post-header a {
