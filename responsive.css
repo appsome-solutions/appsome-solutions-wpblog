@@ -5,6 +5,14 @@
         padding: 20px;
     }
 
+    #post-content {
+        padding: 0px;
+    }
+
+    .main-wrapper {
+        padding: 20px;
+    }
+
     #mc_embed_signup {
         width: auto;
         display: inline-flex;

@@ -14,14 +14,16 @@ get_header();
 ?>
 
 <main id="post-content" role="main">
-    <h6 id="post-header">
-        <a  href="<?php echo get_home_url() ?>"> 
-        <img id="appsome-logo" width="40px" src="<?php echoImage('AppsomeLogo.svg') ?>" alt="Red Shape Top" />
-        <span>Appsome Solutions Blog</span>
-        </a>
-    </h6>
-<?php
+    <div class="main-wrapper">
+        <h6 id="post-header">
+            <a  href="<?php echo get_home_url() ?>"> 
+            <img id="appsome-logo" width="40px" src="<?php echoImage('AppsomeLogo.svg') ?>" alt="Red Shape Top" />
+            <span>Appsome Solutions Blog</span>
+            </a>
+        </h6>
+    </div>
 
+<?php
 
 if ( have_posts() ) {
     while ( have_posts() ) {
@@ -31,23 +33,24 @@ if ( have_posts() ) {
         <div id="post-thumbnail-wrapper">
             <?php echo get_the_post_thumbnail() ?> 
         </div>
+        
+        <div class="main-wrapper">
+            <h2 id="post-title"><?php the_title(); ?></h2>
+    
+            <?php
 
-        <h2 id="post-title"><?php the_title(); ?></h2>
- 
-        <?php
+                $tags = get_the_tags();
+                $html = '<div class="post_tags">';
+                foreach ( $tags as $tag ) {
+                            
+                    $html .= "<span class='tag'>" . "{$tag->name}</span>";
+                }
+                $html .= '</div>';
+                echo $html;
 
-            $tags = get_the_tags();
-            $html = '<div class="post_tags">';
-            foreach ( $tags as $tag ) {
-                        
-                $html .= "<span class='tag'>" . "{$tag->name}</span>";
-            }
-            $html .= '</div>';
-            echo $html;
+            ?>
 
-        ?>
-
-        <?php the_content(); ?>
+            <?php the_content(); ?>
  
     <?php }
 }
@@ -96,6 +99,9 @@ if ( have_posts() ) {
     echo previous_post_link('%link', '<- %title');
     echo next_post_link('%link', '%title ->');
 ?>
+</div>
+
+
 </div>
 
 </main><!-- #site-content -->
