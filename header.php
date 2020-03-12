@@ -36,6 +36,8 @@ wp_enqueue_style( 'style', get_template_directory_uri() . '/reset.css' );
 		  gtag('config', 'UA-160230975-1');
 		</script>
 
+		<link rel="icon" href="AppsomeLogo.png">
+
 	</head>
 
 	<body>
