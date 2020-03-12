@@ -26,6 +26,16 @@ wp_enqueue_style( 'style', get_template_directory_uri() . '/reset.css' );
 		<link rel="profile" href="https://gmpg.org/xfn/11">
 		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160230975-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-160230975-1');
+		</script>
+
 	</head>
 
 	<body>
