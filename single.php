@@ -9,7 +9,19 @@
  * @since 1.0.0
  */
 
-get_header();
+while ( have_posts() ) {
+ 
+    the_post();
+
+    echo getCommonHeader('
+    <!--FACEBOOK METAS START-->
+    <meta property="og:title" content="'.get_the_title().'" />
+    <meta property="og:description" content="'.get_post(get_the_ID())->post_excerpt.'" />
+    <meta property="og:image" content="'.get_the_post_thumbnail_url().'" />
+    <!--FACEBOOK METAS END-->
+    ');
+
+}
 
 ?>
 
