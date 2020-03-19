@@ -22,6 +22,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h2 {
+    margin-top: 20px;
+}
+
 #shape-bottom {
     position: absolute;
     bottom: 0;
@@ -269,7 +273,7 @@ a {
 #post-thumbnail-wrapper img {
     object-fit: contain;
     height: auto;
-    width: calc(100vw - calc(100vw - 100%));
+    max-width: calc(100vw - calc(100vw - 100%));
 }
 
 code {

@@ -12,8 +12,11 @@
 ?><!DOCTYPE html>
 
 <?php
-wp_enqueue_style( 'style', get_stylesheet_uri() );
-wp_enqueue_style( 'style', get_template_directory_uri() . '/reset.css' );
+
+define( 'EDD_VERSION', '2.0.4' );
+
+wp_enqueue_style( 'style-reset', get_template_directory_uri() . '/reset.css', array(), EDD_VERSION );
+wp_enqueue_style( 'style', get_stylesheet_uri(), array(), EDD_VERSION);
 ?>
 
 <html class="no-js">
