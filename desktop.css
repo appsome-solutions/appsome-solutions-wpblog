@@ -26,6 +26,10 @@ h2 {
     margin-top: 20px;
 }
 
+p {
+    margin: 16px 0;
+}
+
 #shape-bottom {
     position: absolute;
     bottom: 0;
