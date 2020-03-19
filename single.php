@@ -19,6 +19,12 @@ while ( have_posts() ) {
     <meta property="og:description" content="'.get_post(get_the_ID())->post_excerpt.'" />
     <meta property="og:image" content="'.get_the_post_thumbnail_url().'" />
     <!--FACEBOOK METAS END-->
+    
+    <meta
+      name="description"
+      content="'.get_post(get_the_ID())->post_excerpt.'"
+    />
+    <title>'.get_the_title().'</title>
     ');
 
 }

@@ -11,6 +11,18 @@
 
 ?>
 
-<?php echo getCommonHeader(" ") ?>
+<?php echo getCommonHeader('
+<!--FACEBOOK METAS START-->
+<meta property="og:title" content="Blog about Software Development Process" />
+<meta property="og:description" content="Appsome Solutions blog about all processes in web development and mobile development for startups and developers." />
+<meta property="og:image" content="'. getImage("AppsomeLogo.svg") .'" />
+<!--FACEBOOK METAS END-->
+
+<title>Blog about Software Development Process</title>
+<meta
+    name="description"
+    content="Appsome Solutions blog about all processes in web development and mobile development for startups and developers."
+/>
+') ?>
     
 
