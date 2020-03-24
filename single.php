@@ -19,6 +19,12 @@ while ( have_posts() ) {
     <meta property="og:description" content="'.get_post(get_the_ID())->post_excerpt.'" />
     <meta property="og:image" content="'.get_the_post_thumbnail_url().'" />
     <!--FACEBOOK METAS END-->
+
+    <!--TWITTER METAS START-->
+    <meta property="twitter:title" content="'.get_the_title().'" />
+    <meta property="twitter:description" content="'.get_post(get_the_ID())->post_excerpt.'" />
+    <meta property="twitter:image" content="'.get_the_post_thumbnail_url().'" />
+    <!--TWITTER METAS END-->
     
     <meta
       name="description"

@@ -18,6 +18,12 @@
 <meta property="og:image" content="'. getImage("AppsomeLogo.svg") .'" />
 <!--FACEBOOK METAS END-->
 
+<!--TWITTER METAS START-->
+<meta property="twitter:title" content="Blog about Software Development Process" />
+<meta property="twitter:description" content="Appsome Solutions blog about all processes in web development and mobile development for startups and developers." />
+<meta property="twitter:image" content="'. getImage("AppsomeLogo.svg") .'" />
+<!--TWITTER METAS END-->
+
 <title>Blog about Software Development Process</title>
 <meta
     name="description"
