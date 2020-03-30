@@ -22,6 +22,8 @@ define( 'EDD_VERSION', '2.0.4' );
 wp_enqueue_style( 'style-reset', get_template_directory_uri() . '/reset.css', array(), EDD_VERSION );
 wp_enqueue_style( 'style', get_stylesheet_uri(), array(), EDD_VERSION);
 
+wp_head();
+
 return '
 <!DOCTYPE html>
 <html class="no-js">
