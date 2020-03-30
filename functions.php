@@ -17,7 +17,7 @@ add_action( 'after_setup_theme', 'appsome_theme_support' );
 function getCommonHeader($inHead) {
 
 
-define( 'EDD_VERSION', '2.0.4' );
+define( 'EDD_VERSION', '2.0.5' );
 
 wp_enqueue_style( 'style-reset', get_template_directory_uri() . '/reset.css', array(), EDD_VERSION );
 wp_enqueue_style( 'style', get_stylesheet_uri(), array(), EDD_VERSION);

@@ -158,6 +158,10 @@ footer a:visited {
     margin-top: 48px;
 }
 
+.main-wrapper .wp-block-gallery.is-cropped .blocks-gallery-item img {
+    height: auto;
+}
+
 .code-block .CodeMirror-scroll {
     height: auto;
 }
